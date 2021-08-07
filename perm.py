@@ -15,9 +15,8 @@ l=len(name)
 for i in range(0,l):
      stri=name[i]
      comb.insert(i,stri)
-     if __name__ == "__main__":
-      str =comb
-      allPermutations(str)
+     str =comb
+     allPermutations(str)
      
      
      
