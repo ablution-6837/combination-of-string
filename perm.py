@@ -1,4 +1,10 @@
 from itertools import permutations
+
+def Convert(string):
+    list1=[]
+    list1[:0]=string
+    return list1
+
 def allPermutations(str):
        
      
@@ -9,7 +15,8 @@ def allPermutations(str):
          print (''.join(perm))
         
 
-name=['A','P','P','L','E']
+name=input("Enter The String\n")
+Convert(name)
 comb=[]
 l=len(name)
 for i in range(0,l):
@@ -17,6 +24,8 @@ for i in range(0,l):
      comb.insert(i,stri)
      str =comb
      allPermutations(str)
+     
+     
      
      
      
